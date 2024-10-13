@@ -13,18 +13,18 @@
 
 <body>
     <header>
-        <div class="navheader relative flex justify-center items-center ">
+        <div class="navheader relative flex justify-center items-center " id="navheader">
             <!-- navbar  -->
-            <div class="navBar bg-gray-400 fixed z-10 px-4 top-0">
+            <div class="navBar bg-gray-300 fixed z-10 px-4 top-0">
                 <div>
-                    <h1 class="text-white">Hello</h1>
+                    <h1 class="text-black">Hello</h1>
                 </div>
                 <div class="navlinks" id="navlinks">
-                    <a href="" class="mx-5 text-white">Home</a>
-                    <a href="" class="mx-5 text-white">About</a>
-                    <a href="" class="mx-5 text-white">Service</a>
-                    <a href="" class="mx-5 text-white">Contact</a>
-                    <a href="" class="mx-5 text-white">Menu</a>
+                    <a href="#navheader" class="mx-5 text-black">Home</a>
+                    <a href="#about" class="mx-5 text-black">About</a>
+                    <a href="" class="mx-5 text-black">Service</a>
+                    <a href="" class="mx-5 text-black">Contact</a>
+                    <a href="" class="mx-5 text-black">Menu</a>
 
 
                 </div>
@@ -40,7 +40,7 @@
                 <h1 class="my-5 text-5xl text-white">The Wellhall</h1>
                 <h5 class="text-white">Resort &amp; Spa Hotel</h5>
                 <button
-                    class="uppercase my-5 text-white border-current border-solid rounded bg-green-700 hover:bg-green-400 px-5 py-3 cursor-pointer">Learn
+                    class="uppercase my-5 text-white border-current border-solid rounded bg-green-600 hover:bg-green-400 px-5 py-3 cursor-pointer">Learn
                     more</button>
             </div>
             <video src="../vid/Beach.mp4" width="100%" autoplay muted loop class="object-cover object-center "></video>
@@ -50,6 +50,30 @@
 
         </div>
     </header>
+
+    <section class="about" id="about">
+        <div class="md:grid md:grid-cols-3 lg:grid-cols-3 px-5">
+            <div class="col-span-2  p-5 flex justify-center items-center">
+                <div class="p-5">
+                    <h1 class="text-3xl text-gray-800">Welcome to your luxurious home away from home</h1>
+                    <p class="my-5 text-gray-500">Write a paragraph that talks about your brand or property here.
+                        Convince
+                        your prospective clients to choose you and your
+                        offerings by highlighting the qualities that set you apart from the competition. Your audience
+                        is
+                        already on your
+                        website, so push a little bit harder to seal the deal!</p>
+                </div>
+            </div>
+            <div class="col-span-1  flex justify-center items-center  p-5">
+                <img src="../img/pexels-kelly-1179532-2869215.jpg" width="100%"
+                    class="object-center object-cover rounded" alt="">
+
+            </div>
+        </div>
+
+
+    </section>
 
 </body>
 

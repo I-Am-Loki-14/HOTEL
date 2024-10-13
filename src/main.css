@@ -6,6 +6,7 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: "Merriweather", serif;
+  scroll-behavior: smooth;
 }
 header {
   width: 100%;
@@ -14,8 +15,6 @@ header {
 }
 .navheader {
   width: 100%;
-
-  background-color: red;
 }
 .navBar {
   width: 100%;
@@ -26,4 +25,9 @@ header {
 }
 .menubar {
   display: none;
+}
+.about {
+  width: 100%;
+  padding: 2rem 0;
+  background-color: #fff;
 }
