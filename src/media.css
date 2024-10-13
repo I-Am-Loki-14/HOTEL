@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+  .navlinks {
+    display: none;
+  }
+  .menubar {
+    display: block !important;
+  }
+  .navlinks {
+    display: block;
+    position: absolute;
+    top: 75px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #9ca3af;
+    clip-path: polygon(0 0, 100% 0%, 0% 0%, 100% 0%);
+    transition: all 0.4s ease;
+  }
+  .show {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  .navlinks a {
+    display: block;
+    text-align: center;
+    margin: 1rem 0;
+  }
+}
