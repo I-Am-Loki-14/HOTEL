@@ -7,6 +7,7 @@
     <title>Beach</title>
     <link rel="stylesheet" href="./output.css">
     <link rel="stylesheet" href="./media.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./main.css">
     <script src="./script.js" defer></script>
 </head>
@@ -22,7 +23,7 @@
                 <div class="navlinks" id="navlinks">
                     <a href="#navheader" class="mx-5 text-black">Home</a>
                     <a href="#about" class="mx-5 text-black">About</a>
-                    <a href="" class="mx-5 text-black">Service</a>
+                    <a href="#service" class="mx-5 text-black">Service</a>
                     <a href="" class="mx-5 text-black">Contact</a>
                     <a href="" class="mx-5 text-black">Menu</a>
 
@@ -36,11 +37,15 @@
             </div>
 
             <div class="absolute z-5 text-center w-80">
-                <h4 class="text-xl text-gray-800">Welcome to</h4>
-                <h1 class="my-5 text-5xl text-white">The Wellhall</h1>
-                <h5 class="text-white">Resort &amp; Spa Hotel</h5>
+                <h4 class="text-xl text-gray-800" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
+                    Welcome to</h4>
+                <h1 class="my-5 text-5xl text-white" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="500">
+                    The Wellhall</h1>
+                <h5 class="text-white" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="500">Resort &amp; Spa
+                    Hotel</h5>
                 <button
-                    class="uppercase my-5 text-white border-current border-solid rounded bg-green-600 hover:bg-green-400 px-5 py-3 cursor-pointer">Learn
+                    class="uppercase my-5 text-white border-current border-solid rounded bg-green-600 hover:bg-green-400 px-5 py-3 cursor-pointer"
+                    data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">Learn
                     more</button>
             </div>
             <video src="../vid/Beach.mp4" width="100%" autoplay muted loop class="object-cover object-center "></video>
@@ -52,11 +57,13 @@
     </header>
 
     <section class="about" id="about">
-        <div class="md:grid md:grid-cols-3 lg:grid-cols-3 px-5">
-            <div class="col-span-2  p-5 flex justify-center items-center">
+        <div class="md:grid md:grid-cols-1 lg:grid-cols-2 px-5">
+            <div class="col-span-1  p-5 flex justify-center items-center">
                 <div class="p-5">
-                    <h1 class="text-3xl text-gray-800">Welcome to your luxurious home away from home</h1>
-                    <p class="my-5 text-gray-500">Write a paragraph that talks about your brand or property here.
+                    <h1 class="text-3xl text-gray-800" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+                        Welcome to your luxurious home away from home</h1>
+                    <p class="my-5 text-gray-500" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="400">Write
+                        a paragraph that talks about your brand or property here.
                         Convince
                         your prospective clients to choose you and your
                         offerings by highlighting the qualities that set you apart from the competition. Your audience
@@ -65,15 +72,60 @@
                         website, so push a little bit harder to seal the deal!</p>
                 </div>
             </div>
-            <div class="col-span-1  flex justify-center items-center  p-5">
-                <img src="../img/pexels-kelly-1179532-2869215.jpg" width="100%"
-                    class="object-center object-cover rounded" alt="">
+            <div class="col-span-1  flex justify-center items-center object-center object-cover " data-aos="flip-left"
+                data-aos-duration="1100" data-aos-delay="500">
+                <img src="../img/pexels-kelly-1179532-2869215.jpg" width="100%" alt="" class=" rounded">
 
             </div>
         </div>
 
 
     </section>
+    <section class="service" id="service">
+        <div class="">
+            <h1 class="text-center text-3xl text-slate-600 py-5 mb-5 font-bold">Accommodations</h1>
+        </div>
+
+        <div class="md:grid md:grid-cols-2 lg:grid-cols-3 p-5 mx-5 gap-5">
+            <div class="px-5 " data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">
+                <div class="">
+                    <img src="../img/beach-1-min.jpg" width="100%" alt="" class="rounded">
+                </div>
+                <div class=" text-center">
+                    <p class="my-5 text-gray-500">2 adults | 1 child below 7</p>
+                    <h3 class="my-4 text-3xl text-gray-800">De Luxe Room</h3>
+                    <p class="my-5 text-sm text-gray-600">from &dollar;189 a night</p>
+                </div>
+            </div>
+            <div class="px-5 " data-aos="fade-up" data-aos-duration="900" data-aos-delay="500">
+                <div class="">
+                    <img src="../img/beach-1-min.jpg" width="100%" alt="" class="rounded">
+                </div>
+                <div class=" text-center">
+                    <p class="my-5 text-gray-700">2 adults | 1 child below 7</p>
+                    <h3 class="my-4 text-3xl text-gray-800">De Luxe Room</h3>
+                    <p class="my-5 text-sm text-gray-600">from &dollar;189 a night</p>
+                </div>
+            </div>
+            <div class="px-5" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="500">
+                <div class="">
+                    <img src="../img/beach-1-min.jpg" width="100%" alt="" class="rounded">
+                </div>
+                <div class=" text-center ">
+                    <p class="my-5 text-gray-700">2 adults | 1 child below 7</p>
+                    <h3 class="my-4 text-3xl text-gray-800">De Luxe Room</h3>
+                    <p class="my-5 text-sm text-gray-600">from &dollar;189 a night</p>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
