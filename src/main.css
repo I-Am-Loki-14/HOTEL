@@ -22,6 +22,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: url(../img/navbarBG-min.jpg) no-repeat;
+  background-position: 50% 40%;
+  background-size: cover;
 }
 .menubar {
   display: none;
@@ -44,5 +47,8 @@ header {
 }
 .offers {
   width: 100%;
-  background-color: aqua;
+  padding: 1rem 3rem;
+}
+.reviews {
+  width: 100%;
 }
