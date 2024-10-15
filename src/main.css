@@ -10,11 +10,14 @@
 }
 header {
   width: 100%;
-
-  background-color: #fff;
+  height: 100vh;
+  background: url(../img/beach-3-min.jpg) no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
 }
 .navheader {
   width: 100%;
+  height: 100vh;
 }
 .navBar {
   width: 100%;
@@ -42,7 +45,7 @@ header {
 }
 .promotion {
   width: 100%;
-  /* background-color: rgba(255, 252, 252, 0.967); */
+
   padding: 1rem 3rem;
 }
 .offers {
